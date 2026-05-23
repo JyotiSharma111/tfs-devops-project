@@ -6,7 +6,7 @@ app=FastAPI()
 
 @app.get("/")
 def root():
-    return {"msg":"TFS DevOps API is running"}
+    return {"message":"TFS DevOps API is running"}
 
 @app.get("/health")
 def health_check():
